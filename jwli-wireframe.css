@@ -1,0 +1,224 @@
+*{box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+a{ 
+    text-decoration: none;
+ }
+  ul{
+    list-style: none;
+ }
+
+h1{
+    font-size: 36px;
+    font-weight: normal;
+}
+.navOne ul {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.navOne ul li a{
+    gap: 20px;
+    color: black; 
+}
+.button a{
+    background: gray;
+    width: 100px;
+    color: white;
+    align-items: center;
+    border-radius: 6px;
+    padding: 10px 15px;
+
+}
+
+.sectionOne{
+    background: rgb(241, 243, 245);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sectionOne div{
+    width: 600px;
+}
+.submitButton{
+    color: white;
+    background: rgb(143, 156, 163);
+    border-radius: 10%;
+    width: 80px;
+    height: 20px;
+}
+aside{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main{
+    padding: 40px;
+}
+main p{
+    text-align: center;
+}
+.thesis{
+    font-size: 24px;
+}
+.mission{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content:space-between;
+    width: 60%;
+    /* padding: 40px; */
+}
+.mission div{
+    border-top: 5px solid pink;
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.mission div p{
+    text-align: left;
+}
+.mission div p span{
+    font-weight: bold;
+}
+.tidbit{
+    font-style: italic;
+    color: gray;
+}
+.sectionTwo{
+    background: rgb(241, 243, 245);
+    display: flex;
+    flex-flow: column wrap;
+    height: 800px;
+}
+.sectionTwo section{
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+}
+.sectionTwo figure img{
+    width: 400px;
+    height: 300px;
+}
+.sectionThree{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.founder{
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+}
+.threeTop {
+    display: flex;
+    flex-flow:row wrap;
+    Justify-content: space-between;
+    padding: 30px;
+}
+.threeTop div{
+    width: 70%;
+}
+.threeTop span{
+    font-weight:bold;
+}
+.threeTop p{
+    display: flex;
+    align-self:left;
+}
+.threeBottom{
+    width: 50%;
+    padding: 30px;
+}
+.threeBottom img{
+    width: 200px;
+    height: 100px;
+}
+#fishLogo{
+    width:300px;
+    height:50px;
+}
+#simmonsLogo{
+    width: 300px;
+    height: 75px;
+}
+.sectionFour{
+    color: white;
+    background: rgb(184, 197, 208);
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+}
+footer{
+    background: rgb(143, 156, 163);
+    color: white;
+}
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* color: white; */
+
+}
+.socialNav li {
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+.socialNav li a{
+    color: white;
+}
+.navTwo ul{
+    display: inline-flex;
+    flex-flow: column wrap;
+    align-items: start;
+}
+.navTwo ul li a{
+    color: white;
+}
+.navTwo ul li:first-child{
+    font-weight: bold;
+}
+/* Laptop 1020px */
+@media (max-width: 1020px){
+    aside{
+        display:none;
+    }
+}
+/* Tablet 768px */
+
+@media (max-width: 768px){
+
+    .sectionTwo{
+        display: flex;
+        flex-flow: row wrap;
+        height: 30%;
+        width: 100%;
+    }
+    .sectionTwo section{
+        width: 100%;
+    }
+}
+/* Mobile 600px */
+@media (max-width: 600px){
+    .threeBottom{
+    width: 100%;
+}
+.threeBottom img{
+    width: 20%;
+    height: 30%;
+}
+#fishLogo{
+    width: 40%;
+    height: 30%;
+}
+#simmonsLogo{
+    width: 20%;
+    height: 30%;
+}
+}
