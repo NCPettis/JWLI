@@ -16,14 +16,13 @@ Tech used: HTML & CSS
 1. Clone or download the repository.
 2. Open `index.html` in a browser
 
-
+## View Live Deploy
+https://jwlinstitute.netlify.app/
 
 ## Screenshots and Demo
 
 ### Application Interface
 
-![Construction application interface](images/construction-API-screenshot.png)
-![Construction application interface](images/construction-API-screenshot(2).png)
 
 
 
