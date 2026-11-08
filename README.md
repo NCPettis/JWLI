@@ -21,6 +21,9 @@ https://jwlinstitute.netlify.app/
 
 ## Screenshots and Demo
 
+![JWLI Screenshot](JWLIscreenshot.png)
+
+
 ### Application Interface
 
 
