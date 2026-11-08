@@ -19,12 +19,12 @@ Tech used: HTML & CSS
 ## View Live Deploy
 https://jwlinstitute.netlify.app/
 
-## Screenshots and Demo
+## Screenshots
 
 ![JWLI Screenshot](JWLIscreenshot.png)
 
 
-### Application Interface
+
 
 
 
